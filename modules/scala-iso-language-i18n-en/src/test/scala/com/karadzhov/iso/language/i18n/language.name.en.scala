@@ -14,4 +14,14 @@ class LanguageNameENSuite extends AnyFlatSpec with TypeCheckedTripleEquals {
     assert(EnglishLanguagePack.languageName(Language.Quechua) === "Quechua")
   }
 
+  // Scala Native throws exception during linking
+  // "language names" should "be aligned with the JVM language names" in {
+  //   Language.values.foreach(a =>
+  //     assert(
+  //       EnglishLanguagePack
+  //         .languageName(a) === new Locale(a.entryName, "").getDisplayLanguage(new Locale("en")).capitalize
+  //     )
+  //   )
+  // }
+
 }

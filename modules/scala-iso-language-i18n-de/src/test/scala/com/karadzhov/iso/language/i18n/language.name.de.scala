@@ -11,7 +11,17 @@ class LanguageNameDESuite extends AnyFlatSpec with TypeCheckedTripleEquals {
   "translating language names" should "return the correct translation" in {
     assert(GermanLanguagePack.languageName(Language.Armenian) === "Armenisch")
     assert(GermanLanguagePack.languageName(Language.Corsican) === "Korsisch")
-    assert(GermanLanguagePack.languageName(Language.Quechua) === "Ketschua")
+    assert(GermanLanguagePack.languageName(Language.Quechua) === "Quechua")
   }
+
+  // Scala Native throws exception during linking
+  // "language names" should "be aligned with the JVM language names" in {
+  //   Language.values.foreach(a =>
+  //     assert(
+  //       GermanLanguagePack
+  //         .languageName(a) === new Locale(a.entryName, "").getDisplayLanguage(new Locale("de")).capitalize
+  //     )
+  //   )
+  // }
 
 }
