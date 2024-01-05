@@ -22,10 +22,10 @@ trait LanguageName {
     case Aymara           => aymara
     case Azerbaijani      => azerbaijani
     case Bambara          => bambara
+    case Bangla           => bangla
     case Bashkir          => bashkir
     case Basque           => basque
     case Belarusian       => belarusian
-    case Bengali          => bengali
     case Bislama          => bislama
     case Bosnian          => bosnian
     case Breton           => breton
@@ -34,7 +34,6 @@ trait LanguageName {
     case Catalan          => catalan
     case Chamorro         => chamorro
     case Chechen          => chechen
-    case Chichewa         => chichewa
     case Chinese          => chinese
     case ChurchSlavic     => churchSlavic
     case Chuvash          => chuvash
@@ -56,7 +55,6 @@ trait LanguageName {
     case Finnish          => finnish
     case French           => french
     case Fulah            => fulah
-    case Gaelic           => gaelic
     case Galician         => galician
     case Ganda            => ganda
     case Georgian         => georgian
@@ -64,7 +62,7 @@ trait LanguageName {
     case Greek            => greek
     case Guarani          => guarani
     case Gujarati         => gujarati
-    case Haitian          => haitian
+    case HaitianCreole    => haitianCreole
     case Hausa            => hausa
     case Hebrew           => hebrew
     case Herero           => herero
@@ -91,16 +89,16 @@ trait LanguageName {
     case Khmer            => khmer
     case Kikuyu           => kikuyu
     case Kinyarwanda      => kinyarwanda
-    case Kyrgyz           => kyrgyz
     case Komi             => komi
     case Kongo            => kongo
     case Korean           => korean
-    case Kwanyama         => kwanyama
+    case Kuanyama         => kuanyama
     case Kurdish          => kurdish
+    case Kyrgyz           => kyrgyz
     case Lao              => lao
     case Latin            => latin
     case Latvian          => latvian
-    case Limburgan        => limburgan
+    case Limburgish       => limburgish
     case Lingala          => lingala
     case Lithuanian       => lithuanian
     case LubaKatanga      => lubaKatanga
@@ -124,11 +122,12 @@ trait LanguageName {
     case Norwegian        => norwegian
     case NorwegianBokmal  => norwegianBokmal
     case NorwegianNynorsk => norwegianNynorsk
+    case Nyanja           => nyanja
     case Occitan          => occitan
-    case Ojibwe           => ojibwe
     case Odia             => odia
+    case Ojibwa           => ojibwa
     case Oromo            => oromo
-    case Ossetian         => ossetian
+    case Ossetic          => ossetic
     case Pali             => pali
     case Pashto           => pashto
     case Persian          => persian
@@ -138,15 +137,16 @@ trait LanguageName {
     case Quechua          => quechua
     case Romanian         => romanian
     case Romansh          => romansh
-    case Kirundi          => kirundi
+    case Rundi            => rundi
     case Russian          => russian
     case Samoan           => samoan
     case Sango            => sango
     case Sanskrit         => sanskrit
     case Sardinian        => sardinian
+    case ScottishGaelic   => scottishGaelic
     case Serbian          => serbian
     case Shona            => shona
-    case Nuosu            => nuosu
+    case SichuanYi        => sichuanYi
     case Sindhi           => sindhi
     case Sinhala          => sinhala
     case Slovak           => slovak
@@ -157,7 +157,7 @@ trait LanguageName {
     case Spanish          => spanish
     case Sundanese        => sundanese
     case Swahili          => swahili
-    case Swazi            => swazi
+    case Swati            => swati
     case Swedish          => swedish
     case Tagalog          => tagalog
     case Tahitian         => tahitian
@@ -174,16 +174,16 @@ trait LanguageName {
     case Turkish          => turkish
     case Turkmen          => turkmen
     case Twi              => twi
-    case Uyghur           => uyghur
     case Ukrainian        => ukrainian
     case Urdu             => urdu
+    case Uyghur           => uyghur
     case Uzbek            => uzbek
     case Venda            => venda
     case Vietnamese       => vietnamese
     case Volapuk          => volapuk
     case Walloon          => walloon
     case Welsh            => welsh
-    case Frisian          => frisian
+    case WesternFrisian   => westernFrisian
     case Wolof            => wolof
     case Xhosa            => xhosa
     case Yiddish          => yiddish
@@ -222,13 +222,13 @@ trait LanguageName {
 
   def bambara: String
 
+  def bangla: String
+
   def bashkir: String
 
   def basque: String
 
   def belarusian: String
-
-  def bengali: String
 
   def bislama: String
 
@@ -245,8 +245,6 @@ trait LanguageName {
   def chamorro: String
 
   def chechen: String
-
-  def chichewa: String
 
   def chinese: String
 
@@ -290,8 +288,6 @@ trait LanguageName {
 
   def fulah: String
 
-  def gaelic: String
-
   def galician: String
 
   def ganda: String
@@ -306,7 +302,7 @@ trait LanguageName {
 
   def gujarati: String
 
-  def haitian: String
+  def haitianCreole: String
 
   def hausa: String
 
@@ -360,17 +356,17 @@ trait LanguageName {
 
   def kinyarwanda: String
 
-  def kyrgyz: String
-
   def komi: String
 
   def kongo: String
 
   def korean: String
 
-  def kwanyama: String
+  def kuanyama: String
 
   def kurdish: String
+
+  def kyrgyz: String
 
   def lao: String
 
@@ -378,7 +374,7 @@ trait LanguageName {
 
   def latvian: String
 
-  def limburgan: String
+  def limburgish: String
 
   def lingala: String
 
@@ -426,15 +422,17 @@ trait LanguageName {
 
   def norwegianNynorsk: String
 
-  def occitan: String
+  def nyanja: String
 
-  def ojibwe: String
+  def occitan: String
 
   def odia: String
 
+  def ojibwa: String
+
   def oromo: String
 
-  def ossetian: String
+  def ossetic: String
 
   def pali: String
 
@@ -446,15 +444,15 @@ trait LanguageName {
 
   def portuguese: String
 
-  def quechua: String
-
   def punjabi: String
+
+  def quechua: String
 
   def romanian: String
 
   def romansh: String
 
-  def kirundi: String
+  def rundi: String
 
   def russian: String
 
@@ -466,11 +464,13 @@ trait LanguageName {
 
   def sardinian: String
 
+  def scottishGaelic: String
+
   def serbian: String
 
   def shona: String
 
-  def nuosu: String
+  def sichuanYi: String
 
   def sindhi: String
 
@@ -492,7 +492,7 @@ trait LanguageName {
 
   def swahili: String
 
-  def swazi: String
+  def swati: String
 
   def swedish: String
 
@@ -526,11 +526,11 @@ trait LanguageName {
 
   def twi: String
 
-  def uyghur: String
-
   def ukrainian: String
 
   def urdu: String
+
+  def uyghur: String
 
   def uzbek: String
 
@@ -544,7 +544,7 @@ trait LanguageName {
 
   def welsh: String
 
-  def frisian: String
+  def westernFrisian: String
 
   def wolof: String
 

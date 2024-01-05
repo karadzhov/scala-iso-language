@@ -32,13 +32,13 @@ trait LanguageNameDE extends LanguageName {
 
   def bambara: String = "Bambara"
 
+  def bangla: String = "Bengalisch"
+
   def bashkir: String = "Baschkirisch"
 
   def basque: String = "Baskisch"
 
   def belarusian: String = "Belarussisch"
-
-  def bengali: String = "Bengalisch"
 
   def bislama: String = "Bislama"
 
@@ -55,8 +55,6 @@ trait LanguageNameDE extends LanguageName {
   def chamorro: String = "Chamorro"
 
   def chechen: String = "Tschetschenisch"
-
-  def chichewa: String = "Chichewa"
 
   def chinese: String = "Chinesisch"
 
@@ -92,17 +90,13 @@ trait LanguageNameDE extends LanguageName {
 
   def faroese: String = "Färöisch"
 
-  def fijian: String = "Fidschianisch"
+  def fijian: String = "Fidschi"
 
   def finnish: String = "Finnisch"
 
   def french: String = "Französisch"
 
-  def frisian: String = "Friesisch"
-
-  def fulah: String = "Fulfulde"
-
-  def gaelic: String = "Gälisch"
+  def fulah: String = "Ful"
 
   def galician: String = "Galicisch"
 
@@ -118,9 +112,9 @@ trait LanguageNameDE extends LanguageName {
 
   def gujarati: String = "Gujarati"
 
-  def haitian: String = "Haitianisch"
+  def haitianCreole: String = "Haiti-Kreolisch"
 
-  def hausa: String = "Hausa"
+  def hausa: String = "Haussa"
 
   def hebrew: String = "Hebräisch"
 
@@ -128,7 +122,7 @@ trait LanguageNameDE extends LanguageName {
 
   def hindi: String = "Hindi"
 
-  def hiriMotu: String = "Hiri Motu"
+  def hiriMotu: String = "Hiri-Motu"
 
   def hungarian: String = "Ungarisch"
 
@@ -146,7 +140,7 @@ trait LanguageNameDE extends LanguageName {
 
   def inuktitut: String = "Inuktitut"
 
-  def inupiaq: String = "Inupiaq"
+  def inupiaq: String = "Inupiak"
 
   def irish: String = "Irisch"
 
@@ -162,7 +156,7 @@ trait LanguageNameDE extends LanguageName {
 
   def kanuri: String = "Kanuri"
 
-  def kashmiri: String = "Kashmiri"
+  def kashmiri: String = "Kaschmiri"
 
   def kazakh: String = "Kasachisch"
 
@@ -172,17 +166,17 @@ trait LanguageNameDE extends LanguageName {
 
   def kinyarwanda: String = "Kinyarwanda"
 
-  def kyrgyz: String = "Kirgisisch"
-
   def komi: String = "Komi"
 
-  def kongo: String = "Kongo"
+  def kongo: String = "Kongolesisch"
 
   def korean: String = "Koreanisch"
 
-  def kwanyama: String = "Kwanyama"
+  def kuanyama: String = "Kwanyama"
 
   def kurdish: String = "Kurdisch"
+
+  def kyrgyz: String = "Kirgisisch"
 
   def lao: String = "Laotisch"
 
@@ -190,13 +184,13 @@ trait LanguageNameDE extends LanguageName {
 
   def latvian: String = "Lettisch"
 
-  def limburgan: String = "Südniederfränkisch"
+  def limburgish: String = "Limburgisch"
 
   def lingala: String = "Lingala"
 
   def lithuanian: String = "Litauisch"
 
-  def lubaKatanga: String = "Kiluba"
+  def lubaKatanga: String = "Luba-Katanga"
 
   def luxembourgish: String = "Luxemburgisch"
 
@@ -212,11 +206,11 @@ trait LanguageNameDE extends LanguageName {
 
   def manx: String = "Manx"
 
-  def maori: String = "Maorisch"
+  def maori: String = "Maori"
 
-  def marathi: String = "Marathisch"
+  def marathi: String = "Marathi"
 
-  def marshallese: String = "Marshallesisch"
+  def marshallese: String = "Marschallesisch"
 
   def mongolian: String = "Mongolisch"
 
@@ -226,7 +220,7 @@ trait LanguageNameDE extends LanguageName {
 
   def ndonga: String = "Ndonga"
 
-  def nepali: String = "Nepali"
+  def nepali: String = "Nepalesisch"
 
   def northNdebele: String = "Nord-Ndebele"
 
@@ -234,25 +228,25 @@ trait LanguageNameDE extends LanguageName {
 
   def norwegian: String = "Norwegisch"
 
-  def norwegianBokmal: String = "Bokmål"
+  def norwegianBokmal: String = "Norwegisch (Bokmål)"
 
-  def norwegianNynorsk: String = "Nynorsk"
+  def norwegianNynorsk: String = "Norwegisch (Nynorsk)"
 
-  def nuosu: String = "Nuosu"
+  def nyanja: String = "Nyanja"
 
   def occitan: String = "Okzitanisch"
 
-  def ojibwe: String = "Ojibwe"
+  def odia: String = "Oriya"
 
-  def odia: String = "Odia"
+  def ojibwa: String = "Ojibwa"
 
   def oromo: String = "Oromo"
 
-  def ossetian: String = "Ossetisch"
+  def ossetic: String = "Ossetisch"
 
   def pali: String = "Pali"
 
-  def pashto: String = "Paschtunisch"
+  def pashto: String = "Paschtu"
 
   def persian: String = "Persisch"
 
@@ -260,19 +254,19 @@ trait LanguageNameDE extends LanguageName {
 
   def portuguese: String = "Portugiesisch"
 
-  def quechua: String = "Ketschua"
+  def punjabi: String = "Punjabi"
 
-  def punjabi: String = "Pandschabi"
+  def quechua: String = "Quechua"
 
   def romanian: String = "Rumänisch"
 
   def romansh: String = "Rätoromanisch"
 
-  def kirundi: String = "Kirundi"
+  def rundi: String = "Rundi"
 
   def russian: String = "Russisch"
 
-  def samoan: String = "Samoa"
+  def samoan: String = "Samoanisch"
 
   def sango: String = "Sango"
 
@@ -280,9 +274,13 @@ trait LanguageNameDE extends LanguageName {
 
   def sardinian: String = "Sardisch"
 
+  def scottishGaelic: String = "Gälisch (Schottland)"
+
   def serbian: String = "Serbisch"
 
   def shona: String = "Shona"
+
+  def sichuanYi: String = "Yi"
 
   def sindhi: String = "Sindhi"
 
@@ -296,25 +294,25 @@ trait LanguageNameDE extends LanguageName {
 
   def southNdebele: String = "Süd-Ndebele"
 
-  def southernSotho: String = "Sesotho"
+  def southernSotho: String = "Süd-Sotho"
 
   def spanish: String = "Spanisch"
 
   def sundanese: String = "Sundanesisch"
 
-  def swahili: String = "Swahili"
+  def swahili: String = "Suaheli"
 
-  def swazi: String = "Swasi"
+  def swati: String = "Swazi"
 
   def swedish: String = "Schwedisch"
 
   def tagalog: String = "Tagalog"
 
-  def tahitian: String = "Tahitianisch"
+  def tahitian: String = "Tahitisch"
 
   def tajik: String = "Tadschikisch"
 
-  def tamil: String = "Tamilisch"
+  def tamil: String = "Tamil"
 
   def tatar: String = "Tatarisch"
 
@@ -324,13 +322,13 @@ trait LanguageNameDE extends LanguageName {
 
   def tibetan: String = "Tibetisch"
 
-  def tigrinya: String = "Tigrinisch"
+  def tigrinya: String = "Tigrinya"
 
   def tongan: String = "Tongaisch"
 
   def tsonga: String = "Tsonga"
 
-  def tswana: String = "Setswana"
+  def tswana: String = "Tswana"
 
   def turkish: String = "Türkisch"
 
@@ -338,15 +336,15 @@ trait LanguageNameDE extends LanguageName {
 
   def twi: String = "Twi"
 
-  def uyghur: String = "Uigurisch"
-
   def ukrainian: String = "Ukrainisch"
 
   def urdu: String = "Urdu"
 
+  def uyghur: String = "Uigurisch"
+
   def uzbek: String = "Usbekisch"
 
-  def venda: String = "Tshivenda"
+  def venda: String = "Venda"
 
   def vietnamese: String = "Vietnamesisch"
 
@@ -356,9 +354,11 @@ trait LanguageNameDE extends LanguageName {
 
   def welsh: String = "Walisisch"
 
+  def westernFrisian: String = "Westfriesisch"
+
   def wolof: String = "Wolof"
 
-  def xhosa: String = "isiXhosa"
+  def xhosa: String = "Xhosa"
 
   def yiddish: String = "Jiddisch"
 
@@ -366,6 +366,6 @@ trait LanguageNameDE extends LanguageName {
 
   def zhuang: String = "Zhuang"
 
-  def zulu: String = "isiZulu"
+  def zulu: String = "Zulu"
 
 }

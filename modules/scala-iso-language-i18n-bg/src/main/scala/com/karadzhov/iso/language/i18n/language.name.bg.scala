@@ -6,9 +6,9 @@ trait LanguageNameBG extends LanguageName {
 
   def afar: String = "Афарски"
 
-  def afrikaans: String = "Африкаанс"
+  def afrikaans: String = "Африканс"
 
-  def akan: String = "Акански"
+  def akan: String = "Акан"
 
   def albanian: String = "Албански"
 
@@ -24,21 +24,21 @@ trait LanguageNameBG extends LanguageName {
 
   def avaric: String = "Аварски"
 
-  def avestan: String = "Авестийски"
+  def avestan: String = "Авестски"
 
   def aymara: String = "Аймара"
 
   def azerbaijani: String = "Азербайджански"
 
-  def bambara: String = "Бамбарски"
+  def bambara: String = "Бамбара"
+
+  def bangla: String = "Бенгалски"
 
   def bashkir: String = "Башкирски"
 
   def basque: String = "Баски"
 
   def belarusian: String = "Беларуски"
-
-  def bengali: String = "Бенгалски"
 
   def bislama: String = "Бислама"
 
@@ -56,8 +56,6 @@ trait LanguageNameBG extends LanguageName {
 
   def chechen: String = "Чеченски"
 
-  def chichewa: String = "Чичева"
-
   def chinese: String = "Китайски"
 
   def churchSlavic: String = "Църковнославянски"
@@ -68,7 +66,7 @@ trait LanguageNameBG extends LanguageName {
 
   def corsican: String = "Корсикански"
 
-  def cree: String = "Кри"
+  def cree: String = "Крии"
 
   def croatian: String = "Хърватски"
 
@@ -98,11 +96,7 @@ trait LanguageNameBG extends LanguageName {
 
   def french: String = "Френски"
 
-  def frisian: String = "Фризийски"
-
   def fulah: String = "Фула"
-
-  def gaelic: String = "Шотландски"
 
   def galician: String = "Галисийски"
 
@@ -114,11 +108,11 @@ trait LanguageNameBG extends LanguageName {
 
   def greek: String = "Гръцки"
 
-  def guarani: String = "Гуарански"
+  def guarani: String = "Гуарани"
 
   def gujarati: String = "Гуджарати"
 
-  def haitian: String = "Хаитянски"
+  def haitianCreole: String = "Хаитянски креолски"
 
   def hausa: String = "Хауса"
 
@@ -128,7 +122,7 @@ trait LanguageNameBG extends LanguageName {
 
   def hindi: String = "Хинди"
 
-  def hiriMotu: String = "Хири Моту"
+  def hiriMotu: String = "Хири моту"
 
   def hungarian: String = "Унгарски"
 
@@ -142,11 +136,11 @@ trait LanguageNameBG extends LanguageName {
 
   def interlingua: String = "Интерлингва"
 
-  def interlingue: String = "Окцидентал"
+  def interlingue: String = "Оксидентал"
 
   def inuktitut: String = "Инуктитут"
 
-  def inupiaq: String = "Инуитски"
+  def inupiaq: String = "Инупиак"
 
   def irish: String = "Ирландски"
 
@@ -172,17 +166,17 @@ trait LanguageNameBG extends LanguageName {
 
   def kinyarwanda: String = "Киняруанда"
 
-  def kyrgyz: String = "Киргизки"
-
   def komi: String = "Коми"
 
   def kongo: String = "Конгоански"
 
   def korean: String = "Корейски"
 
-  def kwanyama: String = "Кваниама"
+  def kuanyama: String = "Кваняма"
 
   def kurdish: String = "Кюрдски"
+
+  def kyrgyz: String = "Киргизки"
 
   def lao: String = "Лаоски"
 
@@ -190,17 +184,17 @@ trait LanguageNameBG extends LanguageName {
 
   def latvian: String = "Латвийски"
 
-  def limburgan: String = "Лимбургски"
+  def limburgish: String = "Лимбургски"
 
   def lingala: String = "Лингала"
 
   def lithuanian: String = "Литовски"
 
-  def lubaKatanga: String = "Люба-Катанга"
+  def lubaKatanga: String = "Луба-катанга"
 
   def luxembourgish: String = "Люксембургски"
 
-  def macedonian: String = "Mакедонски"
+  def macedonian: String = "Македонски"
 
   def malagasy: String = "Малгашки"
 
@@ -210,17 +204,17 @@ trait LanguageNameBG extends LanguageName {
 
   def maltese: String = "Малтийски"
 
-  def manx: String = "Мански"
+  def manx: String = "Манкски"
 
   def maori: String = "Маорски"
 
-  def marathi: String = "Маратхийски"
+  def marathi: String = "Марати"
 
-  def marshallese: String = "Маршалски"
+  def marshallese: String = "Маршалезе"
 
   def mongolian: String = "Монголски"
 
-  def nauruLanguage: String = "Науруански"
+  def nauruLanguage: String = "Науру"
 
   def navajo: String = "Навахо"
 
@@ -228,31 +222,31 @@ trait LanguageNameBG extends LanguageName {
 
   def nepali: String = "Непалски"
 
-  def northNdebele: String = "Северен Ндебеле"
+  def northNdebele: String = "Северен ндебеле"
 
   def northernSami: String = "Северносаамски"
 
   def norwegian: String = "Норвежки"
 
-  def norwegianBokmal: String = "Норвежки букмол"
+  def norwegianBokmal: String = "Норвежки (букмол)"
 
-  def norwegianNynorsk: String = "Норвежки нюноршк"
+  def norwegianNynorsk: String = "Норвежки (нюношк)"
 
-  def nuosu: String = "Сихуан"
+  def nyanja: String = "Нянджа"
 
   def occitan: String = "Окситански"
 
-  def ojibwe: String = "Ожибве"
+  def odia: String = "Ория"
 
-  def odia: String = "Одия"
+  def ojibwa: String = "Оджибва"
 
   def oromo: String = "Оромо"
 
-  def ossetian: String = "Осетински"
+  def ossetic: String = "Осетински"
 
   def pali: String = "Пали"
 
-  def pashto: String = "Пущунски"
+  def pashto: String = "Пущу"
 
   def persian: String = "Персийски"
 
@@ -260,15 +254,15 @@ trait LanguageNameBG extends LanguageName {
 
   def portuguese: String = "Португалски"
 
-  def quechua: String = "Кечуа"
-
   def punjabi: String = "Пенджабски"
+
+  def quechua: String = "Кечуа"
 
   def romanian: String = "Румънски"
 
-  def romansh: String = "Романшки"
+  def romansh: String = "Реторомански"
 
-  def kirundi: String = "Рунди"
+  def rundi: String = "Рунди"
 
   def russian: String = "Руски"
 
@@ -280,9 +274,13 @@ trait LanguageNameBG extends LanguageName {
 
   def sardinian: String = "Сардински"
 
+  def scottishGaelic: String = "Шотландски келтски"
+
   def serbian: String = "Сръбски"
 
   def shona: String = "Шона"
+
+  def sichuanYi: String = "Съчуански йи"
 
   def sindhi: String = "Синдхи"
 
@@ -294,9 +292,9 @@ trait LanguageNameBG extends LanguageName {
 
   def somali: String = "Сомалийски"
 
-  def southNdebele: String = "Южен Ндебеле"
+  def southNdebele: String = "Южен ндебеле"
 
-  def southernSotho: String = "Южно Сото"
+  def southernSotho: String = "Сото"
 
   def spanish: String = "Испански"
 
@@ -304,7 +302,7 @@ trait LanguageNameBG extends LanguageName {
 
   def swahili: String = "Суахили"
 
-  def swazi: String = "Свази"
+  def swati: String = "Свати"
 
   def swedish: String = "Шведски"
 
@@ -338,11 +336,11 @@ trait LanguageNameBG extends LanguageName {
 
   def twi: String = "Туи"
 
-  def uyghur: String = "Уйгурски"
-
   def ukrainian: String = "Украински"
 
   def urdu: String = "Урду"
+
+  def uyghur: String = "Уйгурски"
 
   def uzbek: String = "Узбекски"
 
@@ -356,15 +354,17 @@ trait LanguageNameBG extends LanguageName {
 
   def welsh: String = "Уелски"
 
+  def westernFrisian: String = "Западнофризийски"
+
   def wolof: String = "Волоф"
 
   def xhosa: String = "Кхоса"
 
   def yiddish: String = "Идиш"
 
-  def yoruba: String = "Йорубски"
+  def yoruba: String = "Йоруба"
 
-  def zhuang: String = "Жуанг"
+  def zhuang: String = "Зуанг"
 
   def zulu: String = "Зулуски"
 
