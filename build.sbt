@@ -26,7 +26,8 @@ ThisBuild / developers := List(
 )
 ThisBuild / licenses               := List("The Unlicense" -> url("https://unlicense.org/"))
 ThisBuild / homepage               := Some(url("https://github.com/karadzhov/scala-iso-language"))
-ThisBuild / versionPolicyIntention := Compatibility.BinaryAndSourceCompatible
+ThisBuild / versionScheme          := Some("early-semver")
+ThisBuild / versionPolicyIntention := Compatibility.BinaryCompatible
 // Ignore dependencies to internal modules whose version is like `1.2.3+4...`
 ThisBuild / versionPolicyIgnoredInternalDependencyVersions := Some("^\\d+\\.\\d+\\.\\d+\\+\\d+".r)
 ThisBuild / sonatypeCredentialHost                         := "s01.oss.sonatype.org"
