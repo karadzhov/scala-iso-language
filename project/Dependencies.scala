@@ -8,7 +8,7 @@ object Dependencies {
 
     lazy val enumeratum = "1.7.3"
 
-    lazy val scalaTest = "3.2.17"
+    lazy val scalaTest = "3.2.18"
 
     lazy val scalafixScaluzzi = "0.1.23"
 
