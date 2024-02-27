@@ -2,7 +2,7 @@ import Dependencies._
 
 import org.typelevel.scalacoptions.ScalacOptions
 
-lazy val scala212Version = "2.12.18"
+lazy val scala212Version = "2.12.19"
 
 lazy val scala213Version = "2.13.12"
 
