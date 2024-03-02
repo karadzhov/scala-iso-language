@@ -6,7 +6,7 @@ lazy val scala212Version = "2.12.18"
 
 lazy val scala213Version = "2.13.12"
 
-lazy val scala3Version = "3.3.1"
+lazy val scala3Version = "3.3.3"
 
 lazy val supportedScalaVersions = Seq(scala212Version, scala213Version, scala3Version)
 
