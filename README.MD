@@ -8,72 +8,72 @@ To get started with SBT add the following to your build.sbt file:
 
 #### Enum without translations
 ``` scala   
-libraryDependencies += "com.karadzhov" %% "scala-iso-language-core" % "0.3.1"
+libraryDependencies += "com.karadzhov" %% "scala-iso-language-core" % "0.4.0"
 ```
 
 #### Enum + Arabic translations
 ``` scala   
-libraryDependencies += "com.karadzhov" %% "scala-iso-language-i18n-ar" % "0.3.1"
+libraryDependencies += "com.karadzhov" %% "scala-iso-language-i18n-ar" % "0.4.0"
 ```
 
 #### Enum + Bulgarian translations 
 ``` scala   
-libraryDependencies += "com.karadzhov" %% "scala-iso-language-i18n-bg" % "0.3.1"
+libraryDependencies += "com.karadzhov" %% "scala-iso-language-i18n-bg" % "0.4.0"
 ```
 
 #### Enum + Czech translations 
 ``` scala   
-libraryDependencies += "com.karadzhov" %% "scala-iso-language-i18n-cs" % "0.3.1"
+libraryDependencies += "com.karadzhov" %% "scala-iso-language-i18n-cs" % "0.4.0"
 ```
 
 #### Enum + German translations 
 ``` scala   
-libraryDependencies += "com.karadzhov" %% "scala-iso-language-i18n-de" % "0.3.1"
+libraryDependencies += "com.karadzhov" %% "scala-iso-language-i18n-de" % "0.4.0"
 ```
 
 #### Enum + English translations
 ``` scala   
-libraryDependencies += "com.karadzhov" %% "scala-iso-language-i18n-en" % "0.3.1"
+libraryDependencies += "com.karadzhov" %% "scala-iso-language-i18n-en" % "0.4.0"
 ```
 
 #### Enum + Spanish translations
 ``` scala   
-libraryDependencies += "com.karadzhov" %% "scala-iso-language-i18n-es" % "0.3.1"
+libraryDependencies += "com.karadzhov" %% "scala-iso-language-i18n-es" % "0.4.0"
 ```
 
 #### Enum + French translations
 ``` scala   
-libraryDependencies += "com.karadzhov" %% "scala-iso-language-i18n-fr" % "0.3.1"
+libraryDependencies += "com.karadzhov" %% "scala-iso-language-i18n-fr" % "0.4.0"
 ```
 
 #### Enum + Hindi translations
 ``` scala   
-libraryDependencies += "com.karadzhov" %% "scala-iso-language-i18n-hi" % "0.3.1"
+libraryDependencies += "com.karadzhov" %% "scala-iso-language-i18n-hi" % "0.4.0"
 ```
 
 #### Enum + Italian translations
 ``` scala   
-libraryDependencies += "com.karadzhov" %% "scala-iso-language-i18n-it" % "0.3.1"
+libraryDependencies += "com.karadzhov" %% "scala-iso-language-i18n-it" % "0.4.0"
 ```
 
 #### Enum + Polish translations
 ``` scala   
-libraryDependencies += "com.karadzhov" %% "scala-iso-language-i18n-pl" % "0.3.1"
+libraryDependencies += "com.karadzhov" %% "scala-iso-language-i18n-pl" % "0.4.0"
 ```
 
 #### Enum + Portuguese translations
 ``` scala   
-libraryDependencies += "com.karadzhov" %% "scala-iso-language-i18n-pt" % "0.3.1"
+libraryDependencies += "com.karadzhov" %% "scala-iso-language-i18n-pt" % "0.4.0"
 ```
 
 #### Enum + Russian translations
 ``` scala   
-libraryDependencies += "com.karadzhov" %% "scala-iso-language-i18n-ru" % "0.3.1"
+libraryDependencies += "com.karadzhov" %% "scala-iso-language-i18n-ru" % "0.4.0"
 ```
 
 #### Enum + Chinese translations
 ``` scala   
-libraryDependencies += "com.karadzhov" %% "scala-iso-language-i18n-zh" % "0.3.1"
+libraryDependencies += "com.karadzhov" %% "scala-iso-language-i18n-zh" % "0.4.0"
 ```
 
 ## Sample
