@@ -1,7 +1,7 @@
 ThisBuild / libraryDependencySchemes += "org.scala-lang.modules" %% "scala-xml" % VersionScheme.Always
 
+addSbtPlugin("ch.epfl.scala"      % "sbt-version-policy"            % "3.2.1")
 addSbtPlugin("ch.epfl.scala"      % "sbt-scalafix"                  % "0.12.1")
-addSbtPlugin("ch.epfl.scala"      % "sbt-version-policy"            % "3.2.0")
 addSbtPlugin("com.github.sbt"     % "sbt-ci-release"                % "1.6.1")
 addSbtPlugin("com.timushev.sbt"   % "sbt-updates"                   % "0.6.4")
 addSbtPlugin("org.portable-scala" % "sbt-scala-native-crossproject" % "1.3.2")
