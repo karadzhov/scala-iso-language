@@ -6,7 +6,7 @@ object Dependencies {
 
   object V {
 
-    lazy val enumeratum = "1.7.3"
+    lazy val enumeratum = "1.7.4"
 
     lazy val scalaTest = "3.2.18"
 
