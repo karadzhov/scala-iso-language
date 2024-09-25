@@ -4,7 +4,7 @@ import org.typelevel.scalacoptions.ScalacOptions
 
 lazy val scala212Version = "2.12.20"
 
-lazy val scala213Version = "2.13.14"
+lazy val scala213Version = "2.13.15"
 
 lazy val scala3Version = "3.4.1"
 
